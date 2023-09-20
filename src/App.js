@@ -56,7 +56,14 @@ export default function App() {
                 Track your spending, find investment opportunities, and learn.
               </p>
               <div>
-                <a className={styles.getStartedButton}>Get Started</a>
+                <a className={styles.getStartedButton}>
+                  Get Started{' '}
+                  <img
+                    src={ArrowElement}
+                    alt="Arrow"
+                    className={styles.arrowElement}
+                  />
+                </a>
               </div>
             </div>
 
